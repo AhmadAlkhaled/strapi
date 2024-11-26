@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aktuelles",
+  "info": {
+    "singularName": "aktuelle",
+    "pluralName": "aktuelles",
+    "displayName": "Aktuelles",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Beschreibung": {
+      "type": "text"
+    },
+    "bild_Desktop": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bild_Mobile": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

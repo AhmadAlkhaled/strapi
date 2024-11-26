@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_texts",
+  "info": {
+    "singularName": "home-text",
+    "pluralName": "home-texts",
+    "displayName": "Home_Text",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "blocks"
+    }
+  }
+}
